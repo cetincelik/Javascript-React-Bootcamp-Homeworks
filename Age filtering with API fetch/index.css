@@ -1,0 +1,41 @@
+
+body {
+ background-color: rgb(216, 231, 253);
+}
+.flex {
+  flex: 10px;
+}
+.user-list-item {
+  padding: 0.7rem;
+  display: flex;
+}
+.property-title-container {
+  display: flex;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid black;
+}
+.property-title {
+  padding: 5px;
+  font-size: 25px;
+  text-decoration: double;
+  text-align: start;
+}
+.select-age-range {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.filter-button {
+    border-style: none;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 20px;
+    background-color:rgb(39, 39, 252);
+    letter-spacing: 1px;
+    color: black;
+}
+
